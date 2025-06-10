@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration_Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: darkblue;
+        }
+        h2 {
+            color: darkgreen;
+        }
+        h3 {
+            color: darkred;
+        }
+</style>
+    <a href="D:\WanjiruMwaura\Spark and Build\Web Design class\Day 2\HTML Basics-Tags_Structures_tables_forms_list_images.html"
+     target=_self title="This takes you back to Homepage of Tabitha_Wanjiru_Muhiukia_Spark & Build_WebDev_Student"
+     >back to Homepage</a>
+</head>
+<body>
+    <body style="background-color: darkgrey;"></body>
+    <h3>Requirements to fill the below Form</h3>
+    <ul>
+        <li><h5>Correct Names</h5></li>
+        <li><h5>Valid Email</h5></li>
+         <li><h5>Phone Number</h5></li>
+        <li><h5>Strong password</h5></li>
+        <li><h5>Birth Date</h5></li>
+        <li><h5>Country</h5></li>
+        <li><h5>You must be 18+Years</h5></li>
+    </ul>   
+    <h2>Fill the Registration form Below:</h2>
+        <h3>First Name:</h3> <input type="text" name="first name" placeholder="Enter your first name" required>
+        <h3>Last Name:</h3> <input type="text" last name="last name" placeholder="Enter your last name" required>
+        <h3>Email:</h3> <input type="email" name="email" placeholder="Enter your email"required>
+        <h3>Phone Number:</h3> <input type="tel" name="Phone Number" placeholder="Enter your Phone Number" required>
+        <h3>Birth Date:</h3> <input type="date" name="Birth Date" placeholder="Enter your Birth Date" required>
+        <h3>Password:</h3> <input type="password" name="password" maxlength="12"  placeholder="Enter your password" required>
+        <h3>Confirm Password:</h3> <input type="password" name="confirm password" maxlength="12" placeholder="Confirm your password" required>
+        <h3>
+        <label for="country">Country:</label> <br>
+        <select name="country" id="country" required>
+            <option value="" disabled selected>Select your country</option>
+            <option value="Kenya">Kenya</option>
+            <option value="Uganda">Uganda</option>
+            <option value="Tanzania">Tanzania</option>
+            <option value="Rwanda">Rwanda</option>
+            <option value="Burundi">Burundi</option>
+            </select>
+        </h3> 
+        <h3>
+            <label for="title">Title:</label> <br>
+        </h3>
+            <input type ="radio" name=" title" value="Mr." required>
+            <label>Mr. </label>
+
+            <input type="radio" name="title" value="Ms" required>
+            <label>Ms. </label>
+
+            <input type="radio" name="title" value="Mrs." required>
+            <label>Mrs. </label>
+
+            <input type="radio" name="title" value="PhD." required>
+             <label>PhD. </label>
+          <p>  
+        <div>
+            <input type="checkbox" name="subscribe" value="yes">
+            <label for="subscribe">Subscribe to our newsletter</label>  
+            </div>
+        </p>
+        <div>
+            <input type="checkbox" name="terms" required>
+            <label for="terms">I agree to the terms and conditions</label>
+        </div>
+            <br>
+            <div>
+                <button type="submit">Submit</button>
+                </div>
+
+</body>
+</html>
