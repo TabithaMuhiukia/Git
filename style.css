@@ -1,0 +1,9 @@
+.my_body {background-color:#000000; text-align:center; font-family:'Trebuchet MS';border-style:outset;border-width:5px;
+    border-color:#ffd700;border-radius:10px; padding:20px;}
+.my_name {color: #ff0000;border-style:outset;border-width:1px;border-color:#008000;border-radius:10px; padding:10px;}
+.my_html {color: #ffa500; border-style:outset;border-width:1px;border-color:#008000;border-radius:10px; padding:10px;}
+.my_css {color: #ffff00; border-style:outset;border-width:1px;border-color:#008000;border-radius:10px; padding:10px; }
+.my_javascript {color: #008000; border-style:outset;border-width:1px;border-color:#008000;border-radius:10px; padding:10px;}
+.my_php {color: #0000ff; border-style:outset;border-width:1px;border-color:#008000;border-radius:10px; padding:10px;}
+.my_sql {color: #ffffff; border-style:outset;border-width:1px;border-color:#008000;border-radius:10px; padding:10px;}
+.my_git {color:#ee82ee; border-style:outset;border-width:1px;border-color:#ffd700;border-radius:10px; padding:10px;}
