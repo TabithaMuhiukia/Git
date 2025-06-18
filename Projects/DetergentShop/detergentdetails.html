@@ -1,0 +1,34 @@
+<!-- product.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Product Detail</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="productDetail"></div>
+
+  <script>
+    const id = new URLSearchParams(window.location.search).get("id");
+    fetch("https://fakestoreapi.com/products/" + id)
+      .then(res => res.json())
+      .then(product => {
+        const container = document.getElementById("productDetail");
+        container.innerHTML = `
+          <div class="product_div">
+            <h2>${product.title}</h2>
+            <img src="${product.image}" class="product_image" />
+            <h3>Price: $${product.price}</h3>
+            <p>${product.description}</p>
+            <p>Category: ${product.category}</p>
+            <p>Rating: ${product.rating.rate} (${product.rating.count} votes)</p>
+            <button onclick="window.history.back()">← Back</button>
+          </div>
+        `;
+      });
+  </script>
+</body>
+</html>
+<!--           product_image.src = data.image;
+ -->

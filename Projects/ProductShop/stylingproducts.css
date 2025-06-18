@@ -1,0 +1,130 @@
+/*Prevent Horizontal Overflow*/
+#data {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3-column layout */
+  gap: 20px;
+  padding: 20px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevents horizontal scroll */
+}
+/*Product Container Styling. If you're using a product_div, make sure it's not too wide.*/
+.product_div{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    /*cursor: pointer;*/ /* i have commented out this so it stops to Show Pointer Cursor on Product Div. This visually tells users the product is not clickable
+    over other writings except the specified clickable area which is the image, as indicated below in the .product_image styling.*/
+}
+.product_div:hover{
+     background-color: rgb(249, 255, 249);
+}
+.product_rating{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 75%;
+
+}
+.product_description{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*Fix Images Stretching Layout*/
+.product_image{
+    width: 200px;
+    height: 200px;
+    margin: auto; 
+    cursor: pointer;/*Show Pointer Cursor Only on Image. This visually tells users only the image is clickable.*/  
+}
+.image_div{
+    display: flex;
+    object-fit: fill;
+    width: 45%;
+}
+.product_category{
+    background-color: rgb(51, 67, 80);
+    color: white;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px ;
+    padding-bottom: 4px ;
+    border-radius: 10px;
+}
+.product_price{
+    /* font-family: monospace; */
+    font-size: larger;
+}
+.product_title{
+    text-align: center;
+    font-size: 30px;
+}
+
+.cinzel-800 {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.cinzel-500 {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+.lora-500 {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.lora-700 {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.shopName{
+    text-align: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+.shopDesc{
+    text-align: center;
+}
+.search-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  width: 100%;
+}
+
+#searchInput {
+  padding: 10px;
+  width: 60%;
+  max-width: 500px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  transition: all 0.3s ease;
+}
+/* Make input full width on small screens */
+@media (max-width: 600px) {
+  #searchInput {
+    width: 90%;
+    font-size: 14px;
+  }
+}
+#searchInput:focus {
+  outline: none;
+  border-color: #0077cc;
+  box-shadow: 0 0 5px rgba(0, 119, 204, 0.5);
+}
