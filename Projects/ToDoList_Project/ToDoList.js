@@ -1,15 +1,67 @@
 // array to store the tasks
 let myTask = [
+    
     {
-        id:0,
-        title:'JS CLASS',
-        description:'New project'
+        id:1,
+        title:"Update Dashboards & Reports",
+        description:`Refresh Power BI dashboards (e.g., Loan Disbursements, Agent Float Utilization, Ecosystem KPIs).
+                Check if scheduled reports ran successfully.`
     },
     {
         id:1,
-        title:"Graphics class",
-        description:"Making new posts with gradient colors"
-    }
+        title:"Monitor Key Metrics",
+        description:`Track OLB (Outstanding Loan Balances), DPD (Days Past Due), PAR (Portfolio at Risk).
+            Watch for unusual trends or spikes (e.g., high disbursement or delayed repayments).`
+    },
+    {
+        id:1,
+        title:"Respond to Ad-hoc Requests",
+        description:`Handle urgent data pulls from Credit, Risk, Ecosystem, or Finance teams.
+                Write quick SQL scripts or Excel pivots for business managers.`
+    },
+    {
+        id:1,
+        title:"Compile Performance Reports",
+        description:`Prepare weekly summaries by SOL_ID, Product, Sector, or Channel.
+                    Generate reports for senior management and branch heads.`
+    },
+    {
+        id:1,
+        title:"Data Quality Checks",
+        description:`Run validations on customer info, CIF_ID duplicates, FORACID mismatches.
+                    Flag incorrect mappings of accounts or managers.`
+    },
+    {
+        id:1,
+        title:"Prepare Regulatory & Compliance Reports",
+        description:`Generate reports for CBK or internal audit (e.g., Loan Classification, PAR analysis).
+                    Reconcile balances with Finance/GL reports.`
+    },
+    {
+        id:1,
+        title:"Maintain SQL/Python Scripts",
+        description:`Optimize slow scripts (e.g., UNION queries for monthly tables).
+                    Automate recurring reports (batch jobs, Python-Excel exports).`
+    },
+    {
+        id:0,
+        title:'Learning Web Development',
+        description: `Web development is the process of creating websites or web applications that you
+        use on the internet—like Google, Facebook, online shops, blogs, or even simple portfolio sites.
+        There Are 3 Main Parts in Web Development:
+        1. Frontend_Clientside: Think of it like designing and decorating a house for guests to see.
+        This is what users see and interact with on a website. It includes:
+        HTML: the structure (like the skeleton of a page)
+        CSS: the style (colors, fonts, layout)
+        JavaScript: the behavior (clicking buttons, image sliders, search boxes)
+        2. Backend_Server-side: Think of it like the kitchen or boiler room—visitors don't see it, but it powers the whole house.
+        This is what runs behind the scenes. It handles: Storing and managing data (like user info, products, orders),
+        Talking to the database, Processing user requests. Common backend languages include: Python, PHP, Java, JavaScript (Nodejs),
+        Ruby, and more.
+        3. Database: It's like a big organized notebook for your site.
+        A database stores all the information a website needs:
+        Usernames & passwords, Product details, Posts, comments, messages, etc. Popular databases: MySQL, MongoDB, PostgreSQL.`
+    },
 ]
 
 // add task

@@ -70,7 +70,7 @@ textarea {
 .submit {
   margin: auto;
   font-weight: 600;
-  background-color: rgb(48, 48, 250);
+  background-color: rgb(50, 50, 65);
   padding-top: 10px;
   padding-bottom: 10px;
   width: 50%;
@@ -78,7 +78,7 @@ textarea {
   color: white;
 }
 .submit:hover {
-  background-color: rgb(5, 5, 216);
+  background-color: rgb(50, 50, 65);
   cursor: pointer;
 }
 
@@ -93,7 +93,7 @@ textarea {
 }
 
 .title_div {
-  background-color: rgb(6, 185, 185);
+  background-color: rgb(85, 36, 150);
   padding: 1px;
   font-size: 20px;
   line-height: 0px;
@@ -104,14 +104,14 @@ textarea {
 
 .delete_btn {
   margin: 5px;
-  background-color: rgb(241, 69, 69);
+  background-color: rgb(236, 17, 36);
   color: white;
   border: 0px;
   cursor: pointer;
 }
 .edit_btn {
   margin: 5px;
-  background-color: rgb(86, 241, 69);
+  background-color: rgb(187, 224, 18);
   color: white;
   border: 0px;
   cursor: pointer;
